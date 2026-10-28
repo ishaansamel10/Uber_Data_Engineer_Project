@@ -1,0 +1,15 @@
+{
+	"name": "adf-uberproject-ishaan",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1fd3aa0a-84ab-4a2d-96e5-81abfe147efc",
+		"tenantId": "d1e49603-ea1f-4c64-85e4-52c859bfdd9f"
+	}
+}
