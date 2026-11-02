@@ -134,7 +134,6 @@
 							"value": "@{dataset().p_file}.json",
 							"type": "Expression"
 						},
-						"folderPath": "ingestion",
 						"fileSystem": "raw"
 					}
 				},
@@ -241,7 +240,7 @@
 											"type": "DatasetReference",
 											"parameters": {
 												"p_file": {
-													"value": "@{item().file}.json",
+													"value": "@item().file",
 													"type": "Expression"
 												}
 											}
