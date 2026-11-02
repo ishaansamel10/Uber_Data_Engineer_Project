@@ -19,6 +19,7 @@
 					"value": "@{dataset().p_file}.json",
 					"type": "Expression"
 				},
+				"folderPath": "ingestion",
 				"fileSystem": "raw"
 			}
 		},
